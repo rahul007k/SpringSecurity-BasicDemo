@@ -40,6 +40,10 @@ public class UserRepositoryTests {
 		String email = "abcxyz@gmail.com";
 		User user = repository.findByEmail(email);
 		assertThat(user).isNotNull();
+		
+	String name ="rahul";
+	
+	
 
 	}
 
